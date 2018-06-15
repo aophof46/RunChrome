@@ -1,0 +1,11 @@
+Root crontab
+30 * * * * killall chromium-browser
+00 * * * * killall chromium-browser
+* */4 * * * killall /sbin/shutdown -h +5
+* */2 * * * killall /sbin/shutdown /r -5
+
+user crontab
+* * * * * env DISPLAY=:0 /bin/sh /usr/local/bin/RunChrome-Perk.sh
+
+
+
