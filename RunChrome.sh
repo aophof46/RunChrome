@@ -1,6 +1,6 @@
 #!/bin/sh
 DIR="$( dirname "$(readlink -f "$0")" )"
-FILE="RunChrome.env"
+FILE="/tmp/links.env"
 FLAGS="--disable-extensions --disable-session-crashed-bubble --disable-infobars --start-maximized"
 SERVICE="chromium"
 RESULT=`pgrep ${SERVICE}`
