@@ -1,5 +1,5 @@
 #!/bin/sh
-# CPU Threshold.  CPU about this amount should indicate an active browser
+# CPU Threshold.  CPU above this amount should indicate an active browser
 THRESHOLD=60
 
 # Browser process name.
